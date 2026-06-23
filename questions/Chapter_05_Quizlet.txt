@@ -1,0 +1,102 @@
+D413 – Review Questions – Chap 5 Answers 
+ 
+1. What layer of the OSI model is responsible for addressing? The Network 
+layer (Layer 3) of the OSI model is primarily responsible for logical addressing 
+(e.g., IP addresses) to route data packets across different networks. The Data 
+Link layer (Layer 2) is responsible for physical addressing (e.g., MAC addresses) 
+for communication within the same local network segment. Given the general 
+nature of "addressing," Layer 3 is the most common answer for routing across 
+networks. 
+2. Describe the Manchester digital encoding scheme and how it is related to 
+binary signals. Manchester encoding is a digital encoding scheme in which the 
+encoding of each bit of data includes a transition in the middle of the bit period. A 
+transition from low to high (0 to 1) in the middle of the bit period represents a 
+binary 0, while a transition from high to low (1 to 0) in the middle of the bit period 
+represents a binary 1 (or vice-versa, depending on the specific standard). This 
+scheme is related to binary signals because it directly translates binary 0s and 1s 
+into distinct voltage transitions, ensuring that a clock signal can be recovered 
+from the data itself, which helps in synchronization. 
+3. The type of transmission in which the digital signal is synchronized with a 
+reference signal to ensure proper timing is called _____ transmission. 
+Synchronous transmission. 
+4. The type of transmission in which no reference signal is present is called 
+_____ transmission. Asynchronous transmission. 
+5. What is a parity check? A parity check is a simple error-detection method used 
+in digital communications. A parity bit (either 0 or 1) is added to a block of binary 
+data to make the total number of 1s in the block either always even (even parity) 
+or always odd (odd parity). If, upon reception, the parity doesn't match the 
+agreed-upon scheme, it indicates that an error occurred during transmission. 
+6. What is a cyclic redundancy check (CRC)? A cyclic redundancy check (CRC) 
+is a more robust error-detection code used to detect accidental changes to raw 
+data. It involves computing a short, fixed-length binary sequence (the CRC) for a 
+block of data. This CRC is appended to the data and transmitted. The receiver 
+performs the same calculation on the received data and compares its result with 
+the received CRC. If they don't match, an error is detected. CRCs are very 
+effective at detecting common transmission errors. 
+7. A _____ protocol first establishes a connection with the destination 
+computer before transmitting data. Connection-oriented protocol. 
+8. _____ communication uses protocols that do not verify packet delivery. 
+Connectionless communication. 
+9. What types of transmission use connectionless/unreliable protocols? 
+Connectionless/unreliable protocols are typically used in datagram-based 
+transmissions or when speed and efficiency are prioritized over guaranteed 
+delivery. Examples include: 
+o UDP (User Datagram Protocol) in the Transport layer. 
+o IP (Internet Protocol) in the Network layer. 
+o Streaming media (where occasional lost packets are acceptable). 
+o DNS queries. 
+10. What is the difference between packet switching and circuit switching? 
+o Packet Switching: Data is broken into small, independent units called 
+packets. Each packet may take a different route through the network and 
+is reassembled at the destination. Resources (like bandwidth) are shared 
+among many users. It's efficient for bursty data traffic and more resilient to 
+network failures. 
+o Circuit Switching: A dedicated, end-to-end communication path (circuit) 
+is established between the sender and receiver before any data is 
+transmitted. This circuit remains exclusive to the communication for the 
+duration of the transmission. Resources are reserved. It's ideal for 
+constant, real-time data flow (like traditional phone calls) but can be 
+inefficient if the circuit is idle. 
+11. What coding uses 256 codes to represent all the keys on an English 
+language keyboard? ASCII (American Standard Code for Information 
+Interchange). 
+12. What does the acronym ASCII represent? American Standard Code for 
+Information Interchange. 
+13. What code can be used to represent over 65,000 characters and is used for 
+international codes? Unicode. 
+14. Which standard was designed to represent plaintext files? ASCII. 
+15. _____ is a data code used to create documents that can be downloaded 
+from the Internet and viewed by a web browser. HTML (HyperText Markup 
+Language). 
+16. What is a port? In networking, a port is a logical construct that identifies a 
+specific process or service on a computer system. It's a number that allows 
+different applications to share a single physical network connection without data 
+getting mixed up. When data arrives at a computer, the port number in the packet 
+header tells the operating system which application or service the data is 
+intended for. (e.g., Port 80 for HTTP, Port 443 for HTTPS). 
+17. Differentiate between a broadcast frame and a multicast frame. 
+o Broadcast Frame: A frame (at the Data Link layer) sent to all devices on 
+the same local network segment (broadcast domain). All devices receive 
+and process a broadcast frame. 
+o Multicast Frame: A frame sent to a specific group of devices that have 
+explicitly joined a multicast group. Only devices that are members of that 
+specific group will receive and process the multicast frame. 
+18. What layer of the OSI model is responsible for information reaching its 
+destination free of error and in the correct order? The Transport layer 
+(Layer 4) is responsible for ensuring that data segments are delivered reliably, 
+without errors, and in the correct sequence to the correct application process. 
+Protocols like TCP (Transmission Control Protocol) operate at this layer to 
+provide these services. 
+19. At what layer does encapsulation occur? Encapsulation occurs at every layer 
+of the OSI model as data moves down the stack from the Application layer to the 
+Physical layer. Each layer adds its own header (and sometimes a trailer) to the 
+data unit it receives from the layer above, essentially wrapping it in its own 
+protocol information. 
+20. What layer of the OSI model is divided into two sublayers? The Data Link 
+layer (Layer 2) is divided into two sublayers: 
+o Logical Link Control (LLC) sublayer: Responsible for flow control, error 
+control, and identifying the Network layer protocol. 
+o Media Access Control (MAC) sublayer: Responsible for controlling 
+access to the physical medium (e.g., Ethernet, Wi-Fi) and for physical 
+addressing (MAC addresses). 
+ 

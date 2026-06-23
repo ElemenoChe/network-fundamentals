@@ -1,0 +1,92 @@
+D413 – Review Questions – Chap 14 Answers 
+ 
+1. What is the name used for the telephone line running between customer 
+premises and the Local Central Office? 
+o Local Loop or Last Mile. 
+2. Where is the Point of Presence (PoP) located? 
+o At the Internet Service Provider's (ISP) facility or a central office/data 
+center where an ISP connects to the internet backbone. 
+3. What does the acronym ISDN represent? 
+o Integrated Services Digital Network. 
+4. How many channels are there in a BRI-ISDN cable assembly? 
+o Three (Two B channels and one D channel). 
+5. What is the maximum bandwidth of a BRI-ISDN service? 
+o 128 kbps (2 x 64 kbps B channels). 
+6. What is the maximum bandwidth for a telephone modem? 
+o 56 kbps (V.90/V.92 standards). 
+7. What is the purpose of the D channel in an ISDN cable assembly? 
+o Signaling and control information. It carries call setup, teardown, and 
+other control messages. 
+8. What is the maximum theoretical bandwidth for cable Internet access? 
+o The maximum theoretical bandwidth for cable Internet access is defined 
+by the DOCSIS (Data Over Cable Service Interface Specification) 
+standard. The most current version that is being rolled out is DOCSIS 4.0. 
+With DOCSIS 4.0, the theoretical maximum bandwidth is: Download: Up 
+to 10 Gigabits per second (Gbps). Upload: Up to 6 Gigabits per 
+second (Gbps). It's important to note that these are theoretical maximums 
+under ideal conditions. Real-world speeds can be affected by factors such 
+as: 
+1. Network congestion: Cable networks are shared, so performance 
+can vary during peak usage times. 
+2. Provider implementation: ISPs may not deploy the full theoretical 
+speeds of DOCSIS 4.0 immediately or universally. 
+3. Customer equipment: Your modem and home networking 
+equipment need to support DOCSIS 4.0 to achieve these speeds. 
+4. Asymmetrical speeds: While DOCSIS 4.0 significantly boosts 
+upload speeds and allows for more symmetrical services, 
+traditionally, cable internet has been asymmetrical, with download 
+speeds much higher than upload speeds. 
+9. What factors influence the speed of a cable Internet service connection? 
+o DOCSIS version, number of bonded channels, network congestion, 
+distance from the cable modem termination system (CMTS), quality 
+of in-home cabling, and ISP provisioning. 
+10. What is the difference between a T1 and a fractional T1 line? 
+o A T1 line provides a full 1.544 Mbps of bandwidth. A fractional T1 line 
+provides a portion of that bandwidth, typically in increments of 64 kbps 
+(e.g., 256 kbps, 512 kbps), by using only some of the available channels. 
+11. How many T1 lines make up a T3 line? 
+o 28 T1 lines. 
+12. Which has the higher bandwidth: a T1 connection or a telephone modem 
+connection? 
+o A T1 connection (1.544 Mbps vs. 56 kbps). 
+13. Which has the higher bandwidth: SONET or ISDN? 
+o SONET (Synchronous Optical Network) has significantly higher bandwidth 
+as it is a fiber-optic transmission system designed for high-speed, long-
+distance communication, whereas ISDN is a relatively low-bandwidth 
+digital telephone service. 
+14. Which has the higher bandwidth: T1 or X.25? 
+o T1 (1.544 Mbps vs. typically much lower speeds for X.25, which was a 
+packet-switching protocol often used over lower-speed leased lines). 
+15. What high-speed technology is used for long-distance communication, 
+especially overseas via underwater? 
+o Fiber-optic cables (often utilizing technologies like SONET/SDH or 
+DWDM). 
+16. Which has a highest bandwidth: ISDN or consumer satellite service? 
+o Generally, modern consumer satellite service offers higher bandwidth 
+than ISDN, although satellite latency can be an issue. 
+17. What does the acronym CSU/DSU represent? 
+o Channel Service Unit/Data Service Unit. 
+18. What type of media is a CSU/DSU associated with? 
+o Digital leased lines (like T1/E1 lines). 
+19. Match the following: 
+o i. ISDN - C. Two B channels and one D channel 
+o ii. DSL - E. Digital telephone line (though more specifically, it uses 
+existing telephone lines for high-speed data) 
+o iii. SONET - A. Fiber-optic system used for overseas connections 
+o iv. T3 - D. Typically 45-Mbps bandwidth 
+o v. Telephone modem - B. Typically the slowest connection technology 
+20. In what situation is the PPPoE protocol used? 
+o When connecting to an ISP via DSL (Digital Subscriber Line), where it 
+is used to encapsulate Ethernet frames over PPP, providing authentication 
+and session management. 
+21. What is the difference between a Virtual Private Network (VPN) and a 
+network that uses a T1 line to connect two branch offices? 
+o A T1 line provides a dedicated, point-to-point physical connection with a 
+guaranteed bandwidth between the two branch offices. It offers inherent 
+security because it's a private line. 
+o A Virtual Private Network (VPN) creates a secure, encrypted "tunnel" 
+over a public network (like the internet). It doesn't provide a dedicated 
+physical line, and its bandwidth is dependent on the underlying internet 
+connection. VPNs offer flexibility and cost savings by leveraging existing 
+internet infrastructure, but rely on encryption for security. 
+ 

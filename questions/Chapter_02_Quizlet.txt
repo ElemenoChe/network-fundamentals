@@ -1,0 +1,93 @@
+D413 – Review Questions – Chap 2 Answers 
+ 
+1. What are two general classifications of network media? 
+o Guided (or Bounded) Media 
+o Unguided (or Unbounded) Media 
+2. Twisted-pair and coaxial cables both use pulsating electrical energy to transmit 
+data. 
+3. Digital signals have discrete values, while analog signals have continuous 
+ranges of values. 
+4. What is attenuation? Attenuation is the loss of signal strength (power) over 
+distance. As a signal travels through a medium, it gets weaker. 
+5. What is latency? Latency is the delay in time from when a signal is transmitted 
+from one point until it is received at another point. It is often measured in 
+milliseconds. 
+6. Noise and crosstalk are types of interference. 
+7. Differentiate between baseband and broadband transmissions. 
+o Baseband transmission uses the entire bandwidth of the cable to 
+transmit a single digital signal. It is a digital signaling technique that uses 
+the medium for a single, high-speed signal at a time (though multiple 
+signals can be multiplexed using time-division multiplexing). Ethernet is a 
+common example. 
+o Broadband transmission uses analog signaling and divides the 
+bandwidth of the cable into multiple channels, allowing multiple signals or 
+data streams to be transmitted simultaneously over different frequencies. 
+Cable TV is a common example. 
+8. List the three modes in which communication can occur. 
+o Simplex 
+o Half-duplex 
+o Full-duplex 
+9. What is the difference between half-duplex and full-duplex communication? 
+o Half-duplex communication allows data to flow in both directions, but 
+only one direction at a time. Devices must take turns transmitting and 
+receiving. (e.g., walkie-talkie). 
+o Full-duplex communication allows data to flow in both directions 
+simultaneously. Devices can transmit and receive at the same time. (e.g., 
+telephone conversation). 
+10. What is the difference between direct current (DC) and alternating current 
+(AC)? 
+o Direct Current (DC) flows in only one direction and has a constant 
+voltage polarity. (e.g., batteries). 
+o Alternating Current (AC) periodically reverses its direction of flow and 
+changes its voltage polarity. (e.g., household electricity). 
+11. Resistance is the opposition to direct current; impedance is the opposition to 
+alternating current. 
+12. The amount of signal reflected from the end of the cable is called return loss. 
+13. Describe crosstalk. Crosstalk is a type of interference that occurs when a signal 
+transmitted on one circuit or wire creates an undesired effect on another adjacent 
+circuit or wire due to electromagnetic induction. It's like "eavesdropping" of 
+signals between wires. 
+14. List four types of measurement that can be taken on twisted-pair cable to 
+measure the effects of crosstalk. 
+o Near-End Crosstalk (NEXT) 
+o Far-End Crosstalk (FEXT) 
+o Power Sum Near-End Crosstalk (PSNEXT) 
+o Power Sum Far-End Crosstalk (PSFEXT) 
+15. List the four categories of the IEEE 802.3 classification. Categories refers to 
+the different standards that specify media or speeds. The most common 
+classifications within 802.3 are: 
+o 10BASE-T (Fast Ethernet) 
+o 100BASE-T (Gigabit Ethernet) 
+o 1000BASE-T (10 Gigabit Ethernet) 
+o 10GBASE-T, 40GBASE-T, 100GBASE-T, etc. (Higher speed Ethernets) 
+16. RG-58 is also referred to as Thinnet (or 10BASE2). 
+17. The size of a conductor’s diameter is described by what rating? American Wire 
+Gauge (AWG) rating. 
+18. Which conductor has a larger diameter, one that has a 22 AWG rating or one that 
+has a 24 AWG rating? A conductor with a 22 AWG rating has a larger diameter. 
+(Lower AWG numbers indicate a larger wire diameter). 
+19. What type of coaxial cable is recommended by the EIA/TIA 570 residential 
+communication standard? RG-6 coaxial cable. 
+20. Which type of coaxial cable is referred to as thicknet? RG-8 (or 10BASE5). 
+21. How many categories of twisted-pair cables exist? While new standards and 
+drafts emerge, generally seven main categories are widely recognized and used 
+for data networking: Category 3, 5, 5e, 6, 6A, 7, and 8.  
+22. What is the maximum frequency rating of Category 6 UTP cable? 250 MHz. 
+23. List the two main cable termination standards for twisted-pair cable. 
+o T568A 
+o T568B 
+24. What type of connector is used for UTP cable? RJ-45 (Registered Jack 45). 
+25. List and describe five wiring faults that can occur from incorrect wiring. 
+o Open (or Break): A complete break in one or more of the cable's 
+conductors, preventing signal flow. 
+o Short: Two or more conductors (or a conductor and shield) are 
+accidentally touching, creating an unintended electrical path. 
+o Crossed Pair: The conductors within a twisted pair are reversed at one 
+end of the cable (e.g., blue/white blue is connected to white blue/blue). 
+o Reversed Pair: The wires in one pair are connected to the pins for 
+another pair, but the order within the pair is maintained (e.g., pin 1 and 2 
+of pair 1 are connected to pin 3 and 6 which should be for pair 2). 
+o Split Pair: Two pairs are incorrectly wired, where one wire from each of 
+two different pairs is swapped at both ends, resulting in the correct pin-out 
+but improper twisting, which increases crosstalk. 
+ 

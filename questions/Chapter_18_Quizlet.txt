@@ -1,0 +1,149 @@
+D413 – Review Questions – Chap 18 Answers 
+ 
+1. What is the first step in the network design process? The most common first 
+step is requirements gathering and analysis. This involves understanding the 
+business needs, user needs, applications, and existing infrastructure. 
+2. What are some of the roles and services provided by a network server? 
+(Name at least 10.) Network servers provide a wide range of services. Here are 
+10 common ones: 
+o File Server 
+o Print Server 
+o Web Server (HTTP/HTTPS) 
+o Email Server (SMTP, POP3, IMAP) 
+o Database Server 
+o DNS Server (Domain Name System) 
+o DHCP Server (Dynamic Host Configuration Protocol) 
+o Authentication Server (e.g., RADIUS, Active Directory) 
+o Proxy Server 
+o VPN Server 
+o Application Server 
+o Monitoring Server 
+3. On what protocol standard are all major directory structures based? All 
+major directory structures, especially in networking, are based on the 
+Lightweight Directory Access Protocol (LDAP). 
+4. Why is a naming convention important? A naming convention is crucial for: 
+o Organization and clarity: Making it easy to identify and locate network 
+devices, users, and resources. 
+o Troubleshooting: Speeding up the process of diagnosing and resolving 
+network issues. 
+o Scalability: Ensuring consistency as the network grows. 
+o Management: Simplifying administration and automation. 
+o Security: Improving audit trails and access control. 
+5. List 10 keyboard symbols that should not be used in LDAP computer or 
+other object names. While specific restrictions can vary slightly, generally avoid 
+symbols that have special meaning in programming, scripting, or file paths. Here 
+are 10 common ones to avoid: 
+o \ (backslash) 
+o / (forward slash) 
+o : (colon) 
+o * (asterisk) 
+o ? (question mark) 
+o " (double quote) 
+o < (less than) 
+o > (greater than) 
+o | (pipe) 
+o = (equals sign) 
+o + (plus sign) 
+o , (comma) 
+o ; (semicolon) 
+o # (pound/hash sign) 
+6. What is the purpose of specifications? The purpose of specifications is to 
+provide detailed, clear, and unambiguous requirements and guidelines for 
+the design, implementation, and operation of a system, product, or service. 
+They ensure interoperability, quality, and consistency. 
+7. Name two network interface devices. 
+o Network Interface Card (NIC) or Network Adapter 
+o Router (specifically, its network interfaces) 
+o Switch (ports) 
+o Modem 
+8. What is a smart jack? A smart jack (or intelligent network interface device - 
+iNID) is a network interface device (NID) that includes testing and 
+diagnostic capabilities. It allows the service provider to remotely test the circuit 
+up to the customer's premises. 
+9. What name is used to represent a fiber-optic building termination point 
+located at the demarc? The most common name for a fiber-optic building 
+termination point at the demarc is the Optical Network Terminal (ONT) or 
+Optical Network Unit (ONU), though "demarcation point" or "network interface 
+device (NID)" for fiber is also used. 
+10. How many individual conductors are in a 50-pair cable? A "pair" consists of 
+two individual conductors. Therefore, a 50-pair cable has 50x2=100 individual 
+conductors. 
+11. Name three services that are typically provided by an ONT device. An ONT 
+device typically provides: 
+o Internet access (data) 
+o Voice over IP (VoIP) telephone service 
+o Video/TV services (IPTV) 
+12. What is the name of the room where the telephone system enters the 
+building? The room where the telephone system enters the building is 
+commonly called the Main Distribution Frame (MDF) room or the equipment 
+room/telecommunications room where the MDF is located. 
+13. Name two other uses or room designations that an equipment room may 
+serve. An equipment room may also serve as: 
+o A telecommunications room (TR) or telecommunications closet (TC) 
+for horizontal cabling termination. 
+o A server room or data center. 
+o A backbone distribution area. 
+14. What do the acronyms MDF and IDF represent? 
+o MDF: Main Distribution Frame 
+o IDF: Intermediate Distribution Frame 
+15. What is the purpose of the MDF? The purpose of the MDF is to serve as the 
+primary cross-connection point for telecommunications cabling within a 
+building. It connects the outside plant (OSP) cabling to the building's internal 
+backbone cabling and horizontal cabling, typically housing the main network 
+equipment and patch panels. 
+16. Where is backbone cable located in a building? Backbone cable (or vertical 
+cable) is located in a building in risers, shafts, or conduits that run between 
+telecommunications rooms (TRs) on different floors and connect to the 
+main distribution frame (MDF) or equipment room. It provides 
+interconnections between telecommunications rooms, equipment rooms, and the 
+main cross-connect. 
+17. What is a work area? In telecommunications cabling, a work area is the space 
+where the end-user equipment (e.g., computers, phones) is located and 
+connected to the telecommunications outlet (TO). It's the area where 
+horizontal cabling terminates at an outlet. 
+18. Describe a patch panel. A patch panel is a passive device that serves as a 
+termination point for network cables, allowing for easy connection and 
+reconfiguration of network circuits. It consists of a series of ports (jacks) on 
+the front, with corresponding punch-down terminals or connectors on the back, 
+where fixed cables are terminated. Patch cords are then used on the front to 
+connect these terminations to active networking equipment (switches, routers) or 
+other patch panels. 
+19. What tool is used to connect cable to the back of a patch panel? A punch-
+down tool is used to connect cable to the back of a patch panel. 
+20. How many telecommunication rooms must there be in a building? This 
+depends on the size and layout of the building, but generally, at least one 
+telecommunications room (TR) is required per floor for every 10,000ft2 of 
+usable floor space, or fraction thereof, in accordance with TIA/EIA standards. 
+Larger buildings will have multiple TRs. 
+21. What do the three acronyms ANSI, TIA, EIA represent? 
+o ANSI: American National Standards Institute 
+o TIA: Telecommunications Industry Association 
+o EIA: Electronic Industries Alliance (Note: EIA largely ceased operations 
+in 2011, with many of its standards activities taken over by TIA and other 
+organizations). 
+22. What is the difference between a consolidation point (CP) and a multi-user 
+telecommunication outlet assembly (MUTOA)? 
+o Consolidation Point (CP): A CP is an interconnection point within the 
+horizontal cabling system that allows for the consolidation of multiple 
+horizontal cables from different telecommunications outlets into a single 
+cable run to the telecommunications room. It's typically used in open office 
+environments or modular furniture. 
+o Multi-User Telecommunications Outlet Assembly (MUTOA): A MUTOA 
+is a group of telecommunications outlets that serve multiple work areas. It 
+is an organized assembly of outlets, often housed in a box or enclosure, 
+that provides connectivity for several users in a common area. The key 
+difference is that a MUTOA directly provides outlets, while a CP is an 
+interconnection point for horizontal cables that then run to outlets. 
+23. What is the maximum number of work areas a single MUTOA or 
+consolidation point (CP) can serve? A single MUTOA or consolidation point 
+(CP) can serve a maximum of 12 work areas. 
+24. Can an MUTOA be mounted behind a drop ceiling? No, an MUTOA (and CPs) 
+should not be mounted behind a drop ceiling. They are intended for accessible 
+locations to allow for easy access, administration, and moves, adds, and 
+changes (MACs). 
+25. What characteristic does furniture need to allow an MUTOA or 
+consolidation point (CP) to be attached to it? For an MUTOA or consolidation 
+point (CP) to be attached to furniture, the furniture must be permanently affixed 
+to the building structure. This ensures that the cabling remains stable and 
+adheres to cabling standards for permanent installations. 
+ 

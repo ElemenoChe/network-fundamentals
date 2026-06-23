@@ -1,0 +1,108 @@
+D413 – Review Questions – Chap 15 Answers 
+ 
+1. What is using a false IP address or identity called? Spoofing. 
+2. What method is used to counter a Smurf attack on a network? Disabling IP 
+broadcast to directed broadcast forwarding on routers or implementing ingress 
+filtering. 
+3. What is the purpose behind using a Trojan horse? To gain unauthorized 
+access to a computer system or to carry out malicious activities under the guise 
+of legitimate software. 
+4. Where are macro writers commonly found? In office productivity software 
+(e.g., Microsoft Word, Excel) that support macros, which can be exploited to 
+deliver malware. 
+5. Through what method are worms typically spread? Self-replication across 
+networks, often exploiting vulnerabilities in operating systems or applications, or 
+through email attachments. 
+6. What is the difference between symmetric-key encryption and asymmetric-
+key encryption? 
+o Symmetric-key encryption: Uses a single, shared secret key for both 
+encryption and decryption. 
+o Asymmetric-key encryption: Uses a pair of keys (a public key and a 
+private key); one key encrypts, and the other decrypts. 
+7. Another name for symmetric-key encryption is _____.  private-key 
+encryption. 
+8. What is the purpose of a Certificate Authority (CA)? To issue and manage 
+digital certificates, verifying the identity of entities (websites, individuals, 
+organizations) and binding public keys to them. 
+9. Who developed SSL? Netscape Communications. 
+10. What is the purpose of SSL? To provide secure communication over a 
+computer network, primarily for web browsers, by encrypting the data exchanged 
+between a web server and a client. 
+11. Which two protocols are specifically designed to make website 
+transactions safe? SSL (Secure Sockets Layer) and TLS (Transport Layer 
+Security). (TLS is the successor to SSL). 
+12. What are the three original wireless device security mechanisms? WEP 
+(Wired Equivalent Privacy), MAC address filtering, and SSID hiding. 
+13. What encryption mechanism was developed as a replacement for WEP? 
+WPA (Wi-Fi Protected Access) and later WPA2. 
+14. What is 802.11i? It is the IEEE standard for security mechanisms for wireless 
+local area networks (WLANs), specifying strong encryption and authentication, 
+primarily defining WPA2. 
+15. What is 802.1x? It is an IEEE standard for port-based Network Access Control 
+(NAC), providing an authentication mechanism for devices attempting to connect 
+to a network. 
+16. What are the three components of an 802.1x configuration? Supplicant 
+(client device), Authenticator (network access device like a switch or AP), and 
+Authentication Server (e.g., RADIUS server). 
+17. Identify three security technologies that meet the AAA requirements. 
+RADIUS (Remote Authentication Dial-In User Service), TACACS+ (Terminal 
+Access Controller Access-Control System Plus), and Kerberos. 
+18. Which protocol could be considered as the next generation RADIUS? 
+DIAMETER. 
+19. Why is PAP considered an unsecured system of authorization? Because it 
+sends usernames and passwords in clear text (unencrypted) over the network, 
+making them vulnerable to eavesdropping. 
+20. What does the acronym CHAP represent? Challenge-Handshake 
+Authentication Protocol. 
+21. Why is CHAP considered an improvement over PAP? Because it does not 
+send the password directly; instead, it uses a challenge-response mechanism 
+with a one-way hash, preventing the password from being transmitted in plain 
+text. 
+22. What operating system is MS-CHAP designed exclusively for? Microsoft 
+Windows operating systems. 
+23. Of the three different protocols, PAP, CHAP, and MS-CHAP, which encrypts 
+the contents of the packet? None of them encrypt the entire packet content. 
+However, MS-CHAP v2 provides stronger encryption for the authentication 
+process compared to PAP and CHAP, which focus on securing the authentication 
+credentials themselves rather than the data payload.  
+24. What is Kerberos? A network authentication protocol that provides strong 
+authentication for client/server applications by using secret-key cryptography. 
+25. The initial network operating system should not be considered complete 
+until the latest software _____ is installed. Patches/updates. 
+26. Describe the characteristics of a poor password. Short length, simple 
+patterns, common words, personal information (birthdays, names), repeated 
+characters, or easily guessable sequences. 
+27. Describe the characteristics of a good password. Long length, combination of 
+uppercase and lowercase letters, numbers, and special characters, no dictionary 
+words, not based on personal information, and unique for each account. 
+28. How is a firewall used to secure network access? By controlling inbound and 
+outbound network traffic based on a set of predetermined security rules, acting 
+as a barrier between a trusted internal network and untrusted external networks 
+(like the internet). 
+29. What factors are used by firewalls to filter inbound and outbound network 
+traffic? IP addresses (source/destination), port numbers, protocols, and 
+sometimes application-layer information or traffic states. 
+30. What is the difference between stateful and stateless firewall inspection? 
+o Stateless firewall: Filters packets individually without considering their 
+context or relation to previous packets. 
+o Stateful firewall: Maintains a "state table" to keep track of active 
+connections, allowing it to make more intelligent filtering decisions by 
+considering the context of traffic flows. 
+31. How is a proxy server used to secure network access? By acting as an 
+intermediary for requests from clients seeking resources from other servers. It 
+can filter requests, cache content, hide internal network IP addresses, and 
+inspect traffic for malicious content. 
+32. What is biometrics? The use of unique biological and behavioral characteristics 
+(e.g., fingerprints, facial recognition, iris scans, voice patterns) for identification 
+and authentication. 
+33. What technology uses a plastic card with embedded electronics for 
+identification? Smart cards. 
+34. What TCP utility displays open ports? Netstat (on Windows, Linux, macOS) or 
+nmap (a more advanced network scanner). 
+35. What is a protocol analyzer used for? To capture and analyze network traffic 
+(packets) in real-time, helping to troubleshoot network problems, identify security 
+threats, and monitor network performance. 
+36. What is a packet sniffer? A tool or program that can intercept and log traffic 
+passing over a digital network or part of a network. It's often used for network 
+troubleshooting, analysis, and sometimes for malicious purposes. 
+ 

@@ -1,0 +1,121 @@
+D413 – Review Questions – Chap 11 Answers 
+ 
+1. Convert the following binary bit patterns to decimal number values. Do not 
+use a calculator for this activity. You may use the following tables for 
+support. 
+o See relevant chapter sections for this process involving understanding 
+positional notation in binary and summing the values where a '1' appears. 
+2. A subnet mask can be divided into two descriptive sections. What are the 
+two sections called? 
+o Network portion (or Network ID) and Host portion (or Host ID). 
+3. Why would a network administrator create subnets? 
+▪ 
+To reduce network broadcast traffic (reduce broadcast domain 
+size). 
+▪ 
+To improve network security by isolating segments. 
+▪ 
+To improve network performance. 
+▪ 
+To efficiently use IP addresses (conserve IP addresses). 
+▪ 
+To logically organize the network. 
+4. What do the binary ones in a subnet mask indicate? 
+o The network portion (or network address) of an IP address. 
+5. What do the binary zeros in a subnet mask indicate? 
+o The host portion (or host address) of an IP address. 
+6. Using the information provided, identify which part of the IP address 
+190.134.124.112 with a subnet mask of 255.255.255.0 is the network address 
+and which part is the host address. 
+▪ 
+Network Address: 190.134.124.0 (the part that aligns with the 
+'255' octets in the subnet mask) 
+▪ 
+Host Address: 0.0.0.112 (the part that aligns with the '0' octet in 
+the subnet mask) 
+7. How many bits are borrowed from a Class B host address to create 30 new 
+subnets? 
+o 5 bits. (Because 24=16 and 25=32. You need enough bits to cover at least 
+30 subnets. If all zeros and all ones are not allowed in the network portion, 
+you'd need 2n−2≥30, meaning 2n≥32, so n=5. If all zeros and all ones are 
+allowed, then 2n≥30, still requiring n=5.) 
+8. How many bits are borrowed from a Class C host address to create 6 new 
+subnets? 
+o 3 bits. (Because 22=4 and 23=8. You need enough bits to cover at least 6 
+subnets. If all zeros and all ones are not allowed in the network portion, 
+you'd need 2n−2≥6, meaning 2n≥8, so n=3. If all zeros and all ones are 
+allowed, then 2n≥6, still requiring n=3.) 
+9. How many subnets can be formed using a subnet mask of 255.255.255.224 
+for a Class C network and using hardware that allows the use of all zeros 
+and all ones in the network portion of the subnet mask? 
+o 8 subnets. (A subnet mask of 255.255.255.224 means 3 bits are borrowed 
+from the host portion of a Class C network. 23=8. Since all zeros and all 
+ones are allowed, all 8 are usable.) 
+10. How many hosts are created from the following Class C subnet mask: 
+255.255.255.240? 
+o 14 hosts. (A subnet mask of 255.255.255.240 means 4 bits are borrowed 
+from the host portion of a Class C network, leaving 8−4=4 host bits. The 
+number of usable hosts is 2n−2, where n is the number of host bits. So, 
+24−2=16−2=14.) 
+11. A network administrator decides to partition an existing Class C network 
+into six equal parts. Each part of the network must hold at least 22 
+computers. What subnet mask must be used to satisfy the requirement? 
+o 255.255.255.224 (or /27).  
+▪ 
+To create 6 subnets, you need at least 3 bits (23=8 possible 
+subnets, which covers 6). 
+▪ 
+If 3 bits are borrowed for subnets from a Class C (which has 8 host 
+bits), that leaves 8−3=5 bits for hosts. 
+▪ 
+Number of usable hosts per subnet: 25−2=32−2=30. This satisfies 
+the "at least 22 computers" requirement. 
+▪ 
+The subnet mask for 3 borrowed bits in a Class C is 
+11111111.11111111.11111111.11100000, which in decimal is 
+255.255.255.224. 
+12. How many subnets can be created from the following Class C subnet 
+mask: 255.255.255.224? 
+o 6 subnets (assuming the traditional rule where all zeros and all ones are 
+not used for subnet IDs). If all zeros and all ones are allowed, then 8 
+subnets (23=8).  
+13. How many subnets can be created from the following Class C subnet 
+mask: 255.255.255.248? 
+o 32 subnets can be created from the Class C subnet mask 
+255.255.255.248. Convert the last octet to binary: 248 in binary is 
+11111000. A default Class C subnet mask is 255.255.255.0, which in 
+binary for the last octet is 00000000. Comparing 11111000 (your subnet 
+mask) to 00000000 (default Class C), you can see that 5 bits have been 
+"borrowed" from the host portion to create subnets. The formula for the 
+number of subnets is 2n, where n is the number of borrowed bits. In this 
+case, n=5. So, 25=32. 
+14. What is the difference between a router and a Layer 3 switch? 
+o While both can route IP packets (operate at Layer 3), the primary 
+difference is their original design and optimization.  
+▪ 
+Router: Traditionally designed for WAN connections, complex 
+routing protocols, and often offer more advanced security features 
+(e.g., NAT, VPNs) and less port density. They are primarily 
+software-based for routing decisions. 
+▪ 
+Layer 3 Switch: Originally designed for LAN environments, high 
+port density, and optimized for speed (hardware-based 
+routing/forwarding) within a local network. They often have less 
+robust WAN features. Modern Layer 3 switches blur the lines, 
+offering many router functionalities. 
+15. A bridge filters frames based on which type of address? 
+o MAC address (Media Access Control address). 
+16. A switch filters frames based on which type of address? 
+o MAC address (Media Access Control address). 
+17. A router filters frames based on which type of address? 
+o IP address (Internet Protocol address). 
+18. At which layer of the OSI model do bridges operate? 
+o Layer 2 (Data Link Layer). 
+19. At which layer of the OSI model do routers operate? 
+o Layer 3 (Network Layer). 
+20. Name three devices that will forward a broadcast. 
+o Hub, Bridge, Switch (within the same broadcast domain.  
+21. Name one device that will not forward a broadcast. 
+o Router. (Routers create broadcast domains and do not forward broadcasts 
+from one network segment to another by default). 
+ 

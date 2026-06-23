@@ -1,0 +1,111 @@
+D413 – Review Questions – Chap 13 Answers 
+ 
+1. What are the three types of networks that provide web page distribution?  
+o Internet 
+o Intranet 
+o Extranet 
+2. A(n) _____ is a network in which employees can only access a company 
+web server from within the company. 
+o Intranet 
+3. A(n) _____ allows internal access to web pages and allows authorized 
+personnel from outside the network to access the network’s web pages. 
+o Extranet 
+4. What is the purpose of a DNS server? 
+o To translate human-readable domain names (like www.example.com) into 
+machine-readable IP addresses (like 192.168.1.1) so that computers can 
+locate each other on the internet. 
+5. What protocol is common to Microsoft Active Directory (AD)? 
+o LDAP (Lightweight Directory Access Protocol) 
+6. What is the purpose of a web server? 
+o To store website files (HTML documents, images, videos, etc.) and deliver 
+them to web browsers upon request. 
+7. What does the whois utility do? 
+o It retrieves registration information about a domain name, such as the 
+registrant's name, contact information, registration and expiration dates, 
+and nameservers. 
+8. What are some things to consider when choosing to set up your own web 
+server rather than choosing to use a web-hosting service? Common 
+considerations include: 
+o Cost: Initial hardware investment, ongoing electricity, and maintenance. 
+o Technical Expertise: Requires knowledge of server setup, security, and 
+maintenance. 
+o Reliability/Uptime: Ensuring continuous operation and power backup. 
+o Security: Implementing firewalls, intrusion detection, and regular 
+patching. 
+o Scalability: Ability to handle increasing traffic. 
+o Bandwidth: Sufficient internet connection to serve content. 
+o Physical Space: Dedicated location for the server. 
+9. Name three ways to conduct a whois search. 
+o Using an online WHOIS lookup tool/website. 
+o Using the command-line whois utility (available on Linux/macOS, or via 
+third-party tools on Windows). 
+o Through a domain registrar's website. 
+10. Name two software packages that are designed to turn a server into a web 
+server. 
+o Apache HTTP Server 
+o Microsoft Internet Information Services (IIS) 
+11. What does the acronym IIS represent? 
+o Internet Information Services 
+12. What is the name of the default web-server software installed on a 
+Microsoft server? 
+o Internet Information Services (IIS) 
+13. What are the two most common web browsers? 
+o Google Chrome 
+o Mozilla Firefox 
+14. What is the difference between HTML and HTTP? 
+o HTML (HyperText Markup Language) is a markup language used to 
+structure and present content on the World Wide Web. It defines the 
+elements of a web page (headings, paragraphs, links, images, etc.). 
+o HTTP (Hypertext Transfer Protocol) is an application protocol used for 
+transmitting hypermedia documents, such as HTML, over the internet. It 
+defines how messages are formatted and transmitted, and what actions 
+web servers and browsers should take in response to various commands. 
+In short, HTML is the content, and HTTP is the method of delivery. 
+15. What is a markup? 
+o A markup (or markup language) is a system for annotating a document in 
+a way that is syntactically distinguishable from the text, indicating the 
+structure, formatting, or other properties of the text. 
+16. What is the purpose of HTML tags? 
+o HTML tags are used to define and structure the content of a web page. 
+They tell the browser how to display the content enclosed within them 
+(e.g., as a heading, a paragraph, a link, an image). 
+17. What does the acronym W3C represent? 
+o World Wide Web Consortium 
+18. What is the difference between HTML and XML? 
+o HTML (HyperText Markup Language) is a predefined markup language 
+used to display web pages. It has a fixed set of tags and elements. 
+o XML (eXtensible Markup Language) is a markup language that allows 
+users to define their own tags and document structure. Its primary purpose 
+is to store and transport data, not to display it. XML focuses on describing 
+what data is, while HTML focuses on how data looks. 
+19. SOAP is closely associated with which markup language? 
+o XML (eXtensible Markup Language) 
+20. What is an anonymous FTP site? 
+o An anonymous FTP site is a File Transfer Protocol (FTP) server that 
+allows users to access public files without needing a specific 
+username and password. Users typically log in with the username 
+"anonymous" and their email address as the password. 
+21. What protocol is used to send e-mail to a mail server or to transfer e-mail 
+from one mail server to another mail server? 
+o SMTP (Simple Mail Transfer Protocol) 
+22. What protocols download e-mail from a server? 
+o POP3 (Post Office Protocol version 3) 
+o IMAP (Internet Message Access Protocol) 
+23. Which e-mail protocol is used to download e-mail automatically without the 
+option to store it on the mail server? 
+o POP3 (Post Office Protocol version 3) (While some clients might have 
+an option to leave a copy on the server, its primary design and common 
+usage is to download and remove from the server). 
+24. How does MIME enhance e-mail? 
+o MIME (Multipurpose Internet Mail Extensions) extends the format of 
+email to support:  
+▪ 
+Non-ASCII characters (e.g., characters from different languages). 
+▪ 
+Attachments of various types (images, audio, video, documents, 
+executables). 
+▪ 
+Rich text formatting (e.g., bold, italics, different fonts). 
+▪ 
+Multiple parts in a single message (e.g., text and an attachment). 
+ 

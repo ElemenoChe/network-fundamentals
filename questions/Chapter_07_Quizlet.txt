@@ -1,0 +1,125 @@
+D413 – Review Questions – Chap 7 Answers 
+ 
+1. A network is a group of computers that share resources such as files and 
+hardware. 
+2. A domain is a logical grouping of users and equipment as defined by the network 
+administrator. 
+3. List and differentiate between the editions of Windows Server 2019:  
+o Windows Server 2019 Standard: This is the most common edition, 
+suitable for most organizations. It offers core server functionalities, 
+virtualization rights for two virtual machines (VMs), and basic networking 
+and storage features. 
+o Windows Server 2019 Datacenter: This edition is designed for highly 
+virtualized data centers and cloud environments. It includes all the 
+features of Standard, plus unlimited virtualization rights, Storage Spaces 
+Direct, shielded virtual machines, and software-defined networking. 
+o Windows Server 2019 Essentials: Geared towards small businesses (up 
+to 25 users and 50 devices), it offers a simplified interface and pre-
+configured roles, but has limitations on features and scalability compared 
+to Standard and Datacenter. 
+o Windows Server 2019 Semi-Annual Channel (SAC): This edition is 
+released more frequently (twice a year) and is primarily for customers who 
+want to use new features and functionality as soon as they are available, 
+especially for containers and microservices. It does not include the full 
+GUI and is typically used for specific workloads. 
+4. What phrase does Microsoft use to refer to a server cluster? Failover Cluster 
+5. What is the purpose of a server cluster? The purpose of a server cluster is to 
+provide high availability and fault tolerance for applications and services. If 
+one server in the cluster fails, another server can automatically take over its 
+workload, minimizing downtime. 
+6. What is the purpose of load balancing? The purpose of load balancing is to 
+distribute network traffic or workload across multiple servers to optimize 
+resource utilization, maximize throughput, reduce response time, and avoid 
+overload on any single server. 
+7. What is a HomeGroup? A HomeGroup was a feature in older versions of 
+Windows that allowed users to easily share files, folders, and printers 
+between computers on a home network. It was removed in later versions due 
+to underutilization and the availability of simpler sharing methods. 
+8. In a peer-to-peer network model, each computer contains its own database of 
+users. 
+9. A client-server network stores user and resource information in one location. 
+10. What protocol is native to Windows file sharing? Server Message Block (SMB) 
+11. What other protocol is often identified as SMB? Common Internet File System 
+(CIFS) 
+12. What protocol is commonly associated with sharing on a UNIX/Linux system? 
+Network File System (NFS) 
+13. What does the dollar sign symbol indicate when located beside a share? The 
+dollar sign symbol indicates a hidden share. These shares are not visible when 
+browsing the network, but they can still be accessed if the user knows the full 
+path. 
+14. What two Internet protocols are used by Active Directory to exchange directory 
+information with other servers? Lightweight Directory Access Protocol (LDAP) 
+and DNS (Domain Name System) 
+15. The Active Directory is a hierarchical structure that consists of domains, trees, 
+forests, and organizational units (OUs). 
+16. What namespace feature determines if a domain is part of a tree or forest? The 
+contiguous namespace determines if a domain is part of a tree or forest. 
+17. What is the difference between a disjointed and a contiguous namespace?  
+o A contiguous namespace means that all the domain names within a tree 
+form a continuous, unbroken sequence (e.g., 
+https://www.google.com/search?q=sales.contoso.com, 
+https://www.google.com/search?q=marketing.contoso.com, contoso.com). 
+o A disjointed namespace means that the domain names within a forest do 
+not form a contiguous sequence, often due to mergers, acquisitions, or 
+specific naming requirements (e.g., 
+https://www.google.com/search?q=domainA.com and domainB.org 
+existing in the same forest). 
+18. What two processes handle authentication in a Windows Server network? 
+Kerberos and NT LAN Manager (NTLM) (though Kerberos is preferred and 
+more common in modern environments). 
+19. List and describe four types of trust relationships:  
+o Two-way transitive trust: The most common type. If Domain A trusts 
+Domain B, and Domain B trusts Domain C, then Domain A also trusts 
+Domain C, and vice-versa. This allows users in any of the trusted domains 
+to access resources in the others. 
+o One-way nontransitive trust: A trust established in only one direction, 
+and it does not extend beyond the two directly involved domains. For 
+example, if Domain A trusts Domain B, users in B can access resources in 
+A, but not the other way around, and this trust does not extend to any 
+other domains B might trust. 
+o External trust: Used to establish a trust relationship between an Active 
+Directory domain and a domain in a different forest or a non-Active 
+Directory domain (like an NT 4.0 domain). These are always one-way and 
+nontransitive. 
+o Forest trust: A transitive trust established between two Active Directory 
+forests. This allows users in one forest to access resources in the other 
+forest, and vice-versa, across all domains within those forests. 
+20. The FAT16 file system is limited to a 32-GB partition. 
+21. The FAT16 file system is limited to a 2-GB partition. (Note: FAT16 has a 2GB limit 
+for individual files and a 32GB limit for partitions in Windows, but it's often 
+associated with the 2GB individual file limit.) 
+22. The NTFS file system can create partition sizes as large as 16 EB. 
+23. Shares (or shared folders) can be set up to share directories and control access 
+to files. 
+24. The FAT and FAT32 file systems allow only for share-level security. 
+25. What is the Microsoft Management Console (MMC)? The Microsoft Management 
+Console (MMC) is a framework that provides a common user interface for 
+administrative tools in Windows. It allows administrators to create, save, and 
+open collections of these tools (called snap-ins) to manage various aspects of a 
+Windows operating system and its network. 
+26. What utility would an administrator use to add users and groups to an Active 
+Directory? Active Directory Users and Computers (ADUC) 
+27. Define basic disk and dynamic disk.  
+o Basic disk: A basic disk uses traditional partition tables to organize data 
+into primary and logical partitions. It supports up to four primary partitions 
+or three primary and one extended partition with multiple logical drives. It's 
+the most common type for single-disk systems. 
+o Dynamic disk: A dynamic disk uses a hidden database to manage 
+volumes, offering greater flexibility than basic disks. It supports features 
+like simple volumes, spanned volumes, striped volumes (RAID 0), 
+mirrored volumes (RAID 1), and RAID 5 volumes, spanning multiple 
+physical disks. It is generally used for more advanced storage 
+configurations. 
+28. What does the acronym POSIX represent? Portable Operating System 
+Interface 
+29. What was the original purpose of the POSIX standard? The original purpose of 
+the POSIX standard was to facilitate application portability by standardizing 
+a set of operating system interfaces for UNIX-like operating systems. This 
+allowed developers to write programs that could run on different UNIX variants 
+without significant modification. 
+30. Today, the default protocol for network systems is TCP/IP. 
+31. What is a gateway service? A gateway service is a network node that connects 
+two different networks and allows data to flow between them. It typically 
+performs protocol conversion, enabling communication between devices that use 
+different networking protocols. 
+ 

@@ -1,0 +1,100 @@
+D413 – Review Questions – Chap 4 Answers 
+ 
+1. A carrier wave is an electromagnetic wave of a set frequency that is used to 
+carry data in radio wave-and microwave-based networks. 
+2. An SSID (Service Set Identifier) is a unique identifier assigned to a WLAN 
+(Wireless Local Area Network). It acts as the name of the wireless network, 
+allowing devices to identify and connect to it. 
+3. Modulation is the process of superimposing information (data) onto a carrier 
+wave by varying one or more of its properties, such as its amplitude, frequency, 
+or phase. 
+4. A simple radio broadcast consists of a transmitter, which generates a carrier 
+wave, and a receiver, which receives a carrier wave. 
+5. A channel is a specific frequency or frequency range within a larger band that is 
+used for communication. In wireless networking, different channels are used to 
+avoid interference between devices or networks. 
+6. The main disadvantage to infrared is that it requires line of sight between the 
+transmitter and receiver, and its range is limited. It is also susceptible to 
+interference from bright light sources. 
+7. The two major classifications of antennae are omnidirectional and 
+unidirectional (or directional). 
+8. B. Omni (Omnidirectional antennas are not typically used in point-to-point links 
+because they broadcast in all directions, whereas point-to-point links require 
+focused, directional beams.) 
+9. The patch antenna (or sometimes flat panel) style was developed with 
+aesthetics in mind. 
+10. Spread spectrum is a technique used in wireless communication to transmit 
+data over a wide range of frequencies, rather than a single frequency. This 
+makes the signal more resistant to interference, jamming, and eavesdropping. 
+11. The maximum range of Bluetooth 5.0 is approximately 240 meters (800 feet) in 
+an open-air environment, although this can vary significantly based on obstacles 
+and power output. 
+12. Frequency hopping is used to avoid interference, increase security, and 
+improve resistance to jamming. By rapidly switching frequencies, it makes it 
+difficult for unauthorized parties to intercept or disrupt the communication. 
+13. The spread-spectrum technique that transmits data on multiple channels 
+sequentially is called frequency hopping spread spectrum (FHSS). 
+14. The OFDM (Orthogonal Frequency-Division Multiplexing) transmission 
+technique uses the 5-GHz frequency and can achieve data rates as high as 54 
+Mbps (as specified by older standards like 802.11a). 
+15. The frequency ranges for the three U-NII classifications are:  
+o U-NII-1 (Lower Band): 5.150–5.250 GHz 
+o U-NII-2 (Middle Band): 5.250–5.350 GHz 
+o U-NII-3 (Upper Band): 5.725–5.825 GHz 
+16. IEEE 802.11g specifies the 2.4 GHz frequency. 
+17. IEEE 802.11n specifies both the 2.4 GHz and 5 GHz frequencies. 
+18. The acronym MIMO represents Multiple-Input Multiple-Output. 
+19. MIMO wireless technology uses multiple antennas at both the transmitter and 
+receiver to improve communication performance. By sending and receiving 
+multiple data streams simultaneously over the same radio channel, it increases 
+data throughput and signal reliability. 
+20. The IEEE 802.11ac standard is a wireless networking standard that operates 
+exclusively in the 5 GHz band. It introduced significant improvements over 
+previous standards, including wider channels (up to 160 MHz), more spatial 
+streams (up to 8), and MU-MIMO (Multi-User MIMO) capabilities, allowing for 
+much higher theoretical data rates (up to several Gbps, earning it the "Gigabit 
+Wi-Fi" moniker) and better performance in dense environments. 
+21. The 802.11 wireless standard specifies the CSMA/CA (Carrier Sense Multiple 
+Access with Collision Avoidance) media access method. 
+22. The difference between CSMA/CA (Carrier Sense Multiple Access with 
+Collision Avoidance) and CSMA/CD (Carrier Sense Multiple Access with 
+Collision Detection) is how they handle potential collisions.  
+o CSMA/CD (used in wired Ethernet): Devices listen to the network, and if 
+they detect a collision after they've started transmitting, they stop, wait a 
+random amount of time, and then try again. 
+o CSMA/CA (used in wireless 802.11): Devices try to avoid collisions 
+before they happen. They listen to the channel, and if it's clear, they 
+typically send a small "request to send" (RTS) signal and wait for a "clear 
+to send" (CTS) from the receiver before transmitting their data. This 
+reduces the likelihood of collisions in the first place, which is more difficult 
+to detect reliably in a wireless environment. 
+23. The maximum achievable distance of a Bluetooth device (typically referring to 
+standard Bluetooth) is around 10 meters (33 feet) for Class 2 devices, and up to 
+100 meters (330 feet) for Class 1 devices. 
+24. The data rate of the Bluetooth 3.0 standard was up to 24 Mbps. It achieved this 
+by leveraging Wi-Fi (802.11) radio for high-speed data transfer after an initial 
+Bluetooth connection was established. 
+25. Cellular technology is based on radio waves connecting to designated areas 
+referred to as cells. 
+26. Long Term Evolution (LTE) is also known as 4G LTE. 
+27. A geosynchronous orbit is an orbit around the Earth of a satellite with an orbital 
+period that matches Earth's sidereal rotation period (approximately 23 hours, 56 
+minutes, 4 seconds). A geostationary orbit is a specific type of geosynchronous 
+orbit that is circular and directly above the Earth's equator, making the satellite 
+appear stationary from the ground. 
+28. A disadvantage of satellite communication is high latency (delay) due to the 
+long distance the signal must travel to and from the satellite. Other 
+disadvantages include high cost, susceptibility to weather interference, and 
+security challenges. 
+29. An advantage of wireless networking is mobility, allowing users to access 
+network resources from anywhere within the network's coverage area without 
+physical cables. Other advantages include ease of installation (especially for 
+temporary networks), flexibility, and support for a growing number of mobile 
+devices. 
+30. The one major disadvantage of wireless technology is security vulnerability. 
+Wireless signals are broadcast over the air, making them more susceptible to 
+interception, eavesdropping, and unauthorized access compared to wired 
+connections. 
+31. The acronym WEP represents Wired Equivalent Privacy. 
+32. The acronym TKIP stands for Temporal Key Integrity Protocol. 
+ 

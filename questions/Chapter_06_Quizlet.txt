@@ -1,0 +1,186 @@
+D413 – Review Questions – Chap 6 Answers 
+ 
+1. Proprietary protocols and the Internet: Look in this chapter for sections 
+discussing the early history of networking, the development of TCP/IP, and the 
+contrast between open standards and proprietary systems. Companies often built 
+their own network solutions before the Internet became widespread, so their 
+protocols were optimized for their specific hardware and software, not for 
+interoperability with other systems. 
+2. Microsoft NetBIOS address length: A Microsoft NetBIOS address (specifically, 
+a NetBIOS computer name) has a length of 16 bytes. The first 15 characters 
+are typically the user-configurable computer name (or hostname). The 16th 
+character is reserved by Microsoft for a NetBIOS Suffix, which indicates the type 
+of service or resource associated with that name (e.g., workstation service, file 
+server service, domain controller). So, while the full NetBIOS name is 16 bytes, 
+the part you usually interact with and configure as the computer name is limited 
+to 15 characters. 
+3. IPX address length: an IPX address is 10 bytes (80 bits) long. It's divided into 
+two main parts: 
+o Network Number: This is 4 bytes (32 bits) and identifies the specific 
+network segment. 
+o Node Number: This is 6 bytes (48 bits) and typically corresponds to the 
+MAC address of the network card in the device. This uniquely identifies 
+the device on that particular network segment. 
+4. Common features of network operating systems: Common features include 
+user management, file sharing, print services, security, directory services, and 
+network resource management. 
+5. Individual operating system interface forms: Operating system interface 
+forms are simply the different ways you can interact with a computer and tell it 
+what to do. Think of them as different "languages" or "styles" for you to 
+communicate with the OS. Here are the most common individual operating 
+system interface forms: 
+o Graphical User Interface (GUI - pronounced "gooey"): 
+• What it is: This is what most people are familiar with today. It uses 
+pictures, icons, menus, and windows that you click on with a 
+mouse, tap with your finger (on touchscreens), or use a trackpad. 
+• Example: Windows, macOS, Android, iOS. When you see a 
+desktop with icons and menus, you're using a GUI. 
+• Why it's used: Easy to learn and use, visually appealing, allows for 
+multitasking with multiple windows open. 
+o Command Line Interface (CLI): 
+• What it is: This is a text-based interface where you type 
+commands into a blinking cursor. You have to know the specific 
+commands to make the computer do things. 
+• Example: Command Prompt (Windows), Terminal (macOS/Linux), 
+DOS (Disk Operating System - older). 
+• Why it's used: Very powerful and precise for specific tasks, 
+efficient for experienced users, great for automation and scripting. 
+Less user-friendly for beginners. 
+o Menu-Driven Interface: 
+• What it is: You interact by choosing options from a list (a menu). 
+Once you pick an option, it might take you to another menu with 
+more choices, and so on, until you complete your task. 
+• Example: ATMs (cash machines), older phone systems (like 
+pressing numbers to navigate options), the settings menu on some 
+older devices. 
+• Why it's used: Simple and straightforward, good for limited or 
+specific tasks, hard to make mistakes. 
+o Form-Based Interface: 
+• What it is: This is like filling out a digital form. You see specific 
+fields where you need to enter information, select from dropdowns, 
+or tick boxes. 
+• Example: Many websites when you sign up or enter data, software 
+installation wizards, database entry screens. 
+• Why it's used: Structured input, good for gathering specific types 
+of data in an organized way. 
+o Natural Language Interface: 
+• What it is: You interact with the computer using everyday human 
+language, either by speaking or typing. The computer tries to 
+understand what you mean. 
+• Example: Voice assistants like Siri, Alexa, Google Assistant; 
+chatbots on websites. 
+• Why it's used: Very intuitive and convenient for some tasks, aims 
+to feel like a conversation. Still evolving and sometimes struggles 
+with complex requests. 
+6. First Windows OS with GUI: The first Windows OS with a graphical user 
+interface (GUI) was Windows 1.0, released in 1985. It ran on top of MS-DOS 
+and provided a visual way to interact with the computer using a mouse, windows, 
+and icons. 
+7. Purpose of the Data Link layer: The Data Link layer typically handles frame 
+transmission, error detection, and physical addressing (MAC addresses). 
+8. Ethernet protocol access method: The Ethernet protocol's access method is 
+called CSMA/CD (Carrier Sense Multiple Access with Collision Detection). Here's 
+what that means in simple terms: 
+o Carrier Sense: Before a computer sends data, it "listens" to the network 
+cable to see if anyone else is already transmitting. If it hears traffic (a 
+"carrier"), it waits. 
+o Multiple Access: All devices on the network have equal access to the 
+shared cable. They can all try to send data whenever they "sense" the line 
+is clear. 
+o Collision Detection: Even with "carrier sense," sometimes two computers 
+might try to send data at almost the exact same time, thinking the line is 
+clear. When this happens, their signals "collide" and get garbled. Ethernet 
+devices can detect these collisions. 
+9. Collision storm: An overwhelming flood of unnecessary data or attempts to 
+send data that clogs up the network, making it unusable. In older network 
+technologies (like old Ethernet with hubs), if two devices tried to send data at the 
+exact same moment on the same shared cable, their data "collided" and became 
+corrupted. Both devices would then have to wait and try sending again. A 
+collision storm happens when these collisions become so frequent and 
+widespread that the network essentially grinds to a halt. It's a cascading problem 
+where repeated collisions lead to more retransmissions, which leads to even 
+more collisions, creating a feedback loop of network chaos. True "collision 
+storms" are less common in modern networks that primarily use switches 
+(because switches create separate "collision domains" for each device, 
+preventing direct collisions). 
+10. Broadcast storms typically occur: Similar to a collision storm but involves 
+"broadcast" messages. A broadcast message is like shouting in a room – 
+everyone hears it. If a network device misbehaves or there's a loop in the 
+cabling, a broadcast message can get endlessly repeated and amplified across 
+the network. All devices receive and try to process these excessive messages, 
+overwhelming the network's capacity and making it impossible for normal data to 
+get through. 
+11. Contention domain: A contention domain refers to a part of a network where 
+devices have to compete with each other to send data. If multiple devices in that 
+domain try to send data at the same time, their signals can interfere with each 
+other, leading to data loss or "collisions." Older network technologies like hubs 
+created large contention domains because all devices connected to a hub shared 
+the same communication path. Modern network devices like switches are much 
+better at segmenting networks, meaning each connection (or even just two 
+devices communicating) can be its own contention domain, which significantly 
+reduces collisions and improves performance. 
+12. Purpose of LLDP: LLDP (Link Layer Discovery Protocol) is used by network 
+devices to advertise their identity, capabilities, and neighbors on a local area 
+network. It allows different network devices (like switches, routers, and access 
+points) from various manufacturers to automatically discover and share 
+information about themselves with their directly connected neighbors. 
+13. Microsoft protocols based on LLDP: Microsoft leverages LLDP primarily for 
+network discovery and management on Windows devices. Windows computers 
+can "talk" to your network switches using LLDP. When your Windows PC 
+connects to a network, it can send out LLDP packets. These packets contain 
+basic information about the PC, like its MAC address. Switches can "see" these 
+Windows devices. Network switches that support LLDP receive these packets 
+and can then identify which Windows computer is connected to which specific 
+port. 
+14. Windows XP not appearing in Network Map: Windows XP often doesn't show 
+up in the "Network Map" feature of newer Windows versions (like Windows Vista, 
+7, and later) primarily because it lacks a specific technology called LLTD 
+(Link-Layer Topology Discovery) Responder. Newer Windows computers use 
+LLTD to "talk" to each other and draw a picture of the network (the Network Map). 
+Windows XP didn't originally come with this LLTD "responder." So, when a newer 
+Windows PC tries to map the network, the XP machine doesn't "answer" in the 
+way it expects, and therefore, it doesn't appear on the map. 
+15. Cisco version of LLDP: Cisco's version of LLDP is called Cisco Discovery 
+Protocol (CDP). CDP is Cisco's proprietary version of a discovery protocol. It 
+does pretty much the same thing as LLDP – allows Cisco devices to learn about 
+other directly connected Cisco devices. The key difference is that LLDP is a 
+standard that anyone can use, while CDP is specific to Cisco equipment. 
+16. Link layer protocol design similar to DNS: Both Link Layer protocol design 
+and DNS address a similar fundamental problem: how to find the "address" of 
+something you want to communicate with, when you only know its "name" 
+or identifier. Here's how they are similar: 
+o Mapping Names to Addresses: 
+• DNS (Domain Name System): Translates human-readable domain 
+names (like "https://www.google.com/search?q=google.com") into 
+machine-readable IP addresses (like "172.217.160.142"). You know 
+the name, DNS tells you the numeric address needed for global 
+communication. 
+• Link Layer Protocols (e.g., ARP - Address Resolution Protocol 
+for Ethernet): Translates network-layer addresses (like an IP 
+address "192.168.1.5") into hardware/physical addresses (like a 
+MAC address "00:1A:2B:3C:4D:5E"). When devices are on the 
+same local network, they need the MAC address to actually send 
+data to each other directly. 
+o Discovery Mechanisms: 
+• Both involve a process of discovery. DNS queries go out to find 
+the IP address for a given domain name. ARP requests go out on a 
+local network to find the MAC address for a given IP address. 
+o Hierarchical (to some extent for Link Layer): 
+• DNS is explicitly hierarchical (root servers, TLD servers, 
+authoritative name servers). 
+• While not as extensively hierarchical as DNS, link layer protocols 
+also operate within a defined scope (the local network segment). 
+MAC addresses are unique within a local network, and devices 
+often broadcast requests (like ARP) to discover addresses within 
+that segment. Beyond the local segment, you need routing and 
+higher-layer protocols. 
+o Enabling Communication: 
+• Ultimately, both serve the purpose of allowing devices to find and 
+communicate with each other, but at different "levels" or "scopes" of 
+the network. DNS allows you to find services across the entire 
+internet, while link layer protocols allow devices to find each other 
+on the same physical link. 
+17. Purpose of ARP: This is a fundamental protocol in TCP/IP networking, typically 
+discussed after IP addressing. It's crucial for mapping IP addresses to MAC 
+addresses. 
+ 

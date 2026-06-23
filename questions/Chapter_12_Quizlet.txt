@@ -1,0 +1,54 @@
+D413 – Review Questions – Chap 12 Answers 
+ 
+1. Converting digital pulses to an analog waveform is called Digital-to-Analog 
+(D/A) conversion. 
+2. Converting an analog waveform to digital pulses is called Analog-to-Digital 
+(A/D) conversion. 
+3. Jitter is the variation in the delay of received packets. It can cause distortions 
+and drops in real-time communications like voice and video. 
+4. The delay of data from its origin to the final destination is called latency. 
+5. Factors that contribute to echo include:  
+o Impedance mismatches in the network (e.g., at the 2-wire to 4-wire 
+conversion point in a hybrid). 
+o Acoustic coupling between a speaker and microphone (acoustic echo). 
+o Delay in the signal path. 
+6. The principal use for MPEG compression is video and audio compression for 
+digital multimedia (e.g., streaming, digital TV, DVDs). 
+7. The X.25 protocol uses analog signals to transmit data across long distances. It 
+was developed in the early years of the telecommunications industry, prior to the 
+widespread use of digital signals. An analog transport design for data was 
+natural. What makes X.25 unusual when compared with other analog 
+technologies is that it uses packet switching rather than permanent, electrical 
+connections. Analog signals are routed around the world in packets that often 
+follow different routes to reach their destination. X.25 laid the foundation for 
+packet-switching technology. X.25 is not commonly used in the United States, but 
+many locations overseas are still committed to X.25. The X.25 protocol is limited 
+to a maximum data rate of 56 kbps. X.25 is one of the oldest packet switching 
+protocols.  
+8. A Switched Virtual Circuit (SVC) is a temporary connection between two devices 
+on a network. 
+9. Based on what two factors will an ATM switch drop a cell?  
+o Congestion (the switch's buffers are full). 
+o Errors (the cell header checksum indicates an error, or the cell is 
+malformed). 
+10. Which VoIP protocol is used to establish and terminate a VoIP session? SIP 
+(Session Initiation Protocol). 
+11. Which VoIP protocol is used to stream multimedia in real time between two 
+network nodes? RTP (Real-time Transport Protocol). 
+12. What is another name for bandwidth shaper? Traffic shaper or rate limiter. 
+13. What is the purpose of a bandwidth shaper? The purpose of a bandwidth shaper 
+is to control the rate at which data is sent over a network link, ensuring that 
+data does not exceed a certain bandwidth limit and to smooth out bursts of traffic. 
+This helps to prevent network congestion and improve the quality of service for 
+certain applications. 
+14. What is the purpose of the QoS protocol? The purpose of QoS (Quality of 
+Service) protocols is to manage network resources to provide preferential 
+treatment to certain types of network traffic (e.g., voice and video) over 
+others, ensuring a predictable and satisfactory level of performance for critical 
+applications. 
+15. What is the most common source of VoIP echo? The most common source of 
+VoIP echo is acoustic echo, which occurs when the sound from the speaker's 
+earpiece is picked up by their own microphone. Another common source is 
+hybrid echo due to impedance mismatches at the conversion between 2-wire 
+and 4-wire circuits. 
+ 

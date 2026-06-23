@@ -1,0 +1,146 @@
+D413 – Review Questions – Chap 17 Answers 
+ 
+1. List the nine steps recommended for network troubleshooting as outlined 
+by CompTIA. The CompTIA A+ and Network+ certifications typically outline a 
+troubleshooting methodology that includes these steps: 
+1. Identify the problem. 
+2. Establish a theory of probable cause. 
+3. Test the theory to determine the cause. 
+4. Establish a plan of action to resolve the problem and implement the 
+solution. 
+5. Verify full system functionality and, if applicable, implement preventative 
+measures. 
+6. Document findings, actions, and outcomes. 
+7. Some CompTIA resources may add steps like: Re-evaluate the problem if 
+the first theory is incorrect, Escalate if necessary, or Research knowledge 
+bases. (Often the 6 core steps are the most emphasized, with variations 
+on how they are broken down or additional sub-steps.) 
+2. What are the five major areas, or locations, of computer/network problems? 
+1. Hardware: Physical components (NIC, cable, router, switch, server, 
+workstation). 
+2. Software: Operating system, applications, drivers. 
+3. Configuration: Incorrect settings, IP addresses, DNS, firewall rules. 
+4. Connectivity: Physical or logical connection issues (cabling, wireless 
+signal, routing). 
+5. User Error/Policy: Incorrect usage, forgotten passwords, security policy 
+restrictions. 
+3. What is the start of any computer boot process? The Power-On Self-Test 
+(POST). 
+4. What controls the sequence of boot device hardware, such as the hard disk 
+drive, floppy disk, and CD-ROM? The BIOS/UEFI firmware settings 
+(specifically, the boot order or boot priority). 
+5. When troubleshooting a computer or server, what three major stages of 
+computer operation should you observe to determine at which stage the 
+system failure occurred? 
+1. Boot/Startup: From power on until the OS starts loading. 
+2. Operating System Load/Login: From the OS starting to load until a 
+successful user login. 
+3. Post-Login/Application Operation: After a successful login, during 
+normal system and application use. 
+6. Which program in Windows Vista, Windows 7, and Windows Server 2008 
+replaced the boot loader (ntldr)? Bootmgr (Boot Manager). 
+7. How can you tell when the startup text mode is complete? When the 
+graphical user interface (GUI) begins to load, or when the Windows logo and 
+"Starting Windows" message appear. 
+8. What are the two types of system firmware? 
+1. BIOS (Basic Input/Output System) 
+2. UEFI (Unified Extensible Firmware Interface) 
+9. What is the final stage of the boot process? The successful loading of the 
+operating system and presentation of the login screen/desktop. 
+10. When is the network workstation boot process considered complete? When 
+the operating system has fully loaded, network services have started, and the 
+user is presented with the login screen or desktop, and the network connection is 
+established. 
+11. What is the name of the Windows logon executable file? LogonUI.exe 
+(responsible for the logon interface). 
+12. Which two tools will solve most problems that occur after the system 
+logon? 
+1. Task Manager (to end unresponsive applications, check processes, 
+monitor performance). 
+2. Event Viewer (to check system and application logs for errors). 
+13. What executable file is loaded and runs immediately after a successful 
+logon? Explorer.exe (Windows Explorer, which loads the desktop, taskbar, etc.). 
+14. Which special function key is used to access the Advanced Boot Options 
+menu? F8. 
+15. What are the typical Advanced Boot Options menu selections for Windows 
+7? 
+o Repair Your Computer 
+o Safe Mode 
+o Safe Mode with Networking 
+o Safe Mode with Command Prompt 
+o Enable Boot Logging 
+o Enable low-resolution video (640x480) 
+o Last Known Good Configuration (advanced) 
+o Directory Services Restore Mode 
+o Debugging Mode 
+o Disable automatic restart on system failure 
+o Disable Driver Signature Enforcement 
+o Start Windows Normally 
+16. What provides the best protection from viruses, worms, and unforeseen 
+disasters? A combination of: 
+o Regular backups 
+o Antivirus/Antimalware software 
+o Firewall 
+o Keeping software updated (patches and security updates) 
+o User education/awareness 
+17. Which Advanced Boot Options menu option will use the registry settings 
+from the last successful boot? Last Known Good Configuration 
+(advanced). 
+18. Explain the term loopback test. A loopback test is a diagnostic method used to 
+verify the functionality of a communication port or cable by sending data out and 
+immediately back into the same port. This checks if the hardware and its 
+associated drivers are working correctly without involving external network 
+devices. It's often performed using a physical loopback adapter. 
+19. What is the most common network problem? Cabling issues (loose, faulty, 
+or incorrect cables). 
+20. What are the most common reasons users cannot log on to a network? 
+(List at least three.) 
+1. Incorrect username or password. 
+2. Account locked out or expired. 
+3. Network connectivity issues (no connection to the domain controller, 
+Wi-Fi problem). 
+4. Incorrect domain specified. 
+5. Time synchronization issues. 
+21. What is a dead drop? A point in the network where traffic is dropped without any 
+notification or forwarding, possibly due to a misconfigured route, a blackhole, or a 
+filtering rule.  
+22. What would an assigned IP address of 169.254.0.12 indicate? An APIPA 
+(Automatic Private IP Addressing) address. This indicates that the computer 
+was unable to obtain an IP address from a DHCP server. 
+23. What is the most common problem that prevents a user from accessing 
+VoIP services? Network connectivity issues (insufficient bandwidth, high 
+latency/jitter, firewall blocking VoIP ports, or misconfigured QoS). 
+24. What condition occurs when one network device is configured for half-
+duplex and the other is configured for full-duplex? A duplex mismatch. This 
+leads to significant performance degradation, collisions, and slow network 
+speeds. 
+25. What service is typically directly related to Internet access? DNS (Domain 
+Name System), as it translates human-readable domain names into IP 
+addresses, which is essential for accessing websites and online services. DHCP 
+is also critical for obtaining an IP address to connect to the internet. 
+26. What network device could be responsible for preventing an ICMP echo 
+request? A firewall (either a network firewall or a host-based firewall). 
+27. What wireless connection problem can usually be cleared by repositioning 
+the wireless device? Signal interference or weak signal strength due to 
+distance or obstacles. 
+28. What two wireless configuration options can prevent a user from 
+establishing a connection? 
+1. Incorrect SSID (Service Set Identifier). 
+2. Incorrect security key/passphrase (WPA2/WPA3 password). (Other 
+possibilities include incorrect encryption type, MAC filtering, or hidden 
+SSID, but SSID and key are most common). 
+29. What TCP/IP utility is designed to quickly verify a connection between the 
+source and destination? Ping. 
+30. Which TCP/IP utility performs the same functions as tracert and also 
+performs a statistical analysis of the path over a period of time? PathPing 
+(Windows). 
+31. What is the UNIX/Linux command equivalent of the Windows NT tracert 
+command? Traceroute. 
+32. Which TCP/IP utility is designed to list all routers along a path to a distant 
+destination? Tracert (Windows) or Traceroute (UNIX/Linux). 
+33. Which TCP/IP utility will display statistics for IP, TCP, ICMP, and UDP? 
+Netstat -s (on Windows) or netstat -s (on Linux). 
+34. What command is used to view information contained in the local routing 
+table? Route print (Windows) or netstat -r (Windows/Linux) or ip route show 
+(Linux, preferred for modern Linux). 
+ 

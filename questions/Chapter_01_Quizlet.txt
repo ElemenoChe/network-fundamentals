@@ -1,0 +1,284 @@
+D413 – Review Questions – Chap 1 Answers 
+ 
+1. Define node and host. 
+• 
+Node: Any device connected to a network that can send, receive, or forward 
+information. This includes computers, printers, routers, switches, servers, and 
+even IoT devices. 
+• 
+Host: A specific type of node that is the ultimate source or destination of a 
+message on a network. Hosts typically include end-user devices like computers, 
+smartphones, tablets, and servers. All hosts are nodes, but not all nodes are 
+hosts (e.g., a router is a node but not typically a host). 
+2. Summarize the advantages and disadvantages of a network system. 
+• 
+Advantages:  
+o Resource Sharing: Hardware (printers, scanners) and software can be 
+shared, reducing costs. 
+o Information Sharing: Easy and fast sharing of files, data, and 
+applications. 
+o Centralized Management: Easier to manage and secure data, and 
+perform backups. 
+o Communication: Facilitates email, messaging, video conferencing, etc. 
+o Flexibility: Users can often access resources from different locations. 
+• 
+Disadvantages:  
+o Security Risks: Networks are vulnerable to breaches, malware, and 
+unauthorized access. 
+o Cost: Initial setup can be expensive (hardware, software, installation). 
+o Management Complexity: Requires skilled personnel to manage and 
+maintain. 
+o Dependence: Network failure can halt operations for all connected 
+devices. 
+o Performance Issues: Can suffer from congestion and slow performance if 
+not designed or managed well. 
+3. List some things that might be shared on a network. 
+• 
+Files and documents 
+• 
+Printers and scanners 
+• 
+Internet access 
+• 
+Applications and software 
+• 
+Databases 
+• 
+Storage space (e.g., network drives) 
+• 
+Communication services (e.g., email, VoIP) 
+4. What are the three classifications of networks based on the size and 
+complexity of the network system? The most common classifications are: 
+• 
+LAN (Local Area Network): Covers a small geographic area (e.g., home, office 
+building, campus). 
+• 
+MAN (Metropolitan Area Network): Covers a larger area than a LAN, typically a 
+city or large campus. 
+• 
+WAN (Wide Area Network): Covers a large geographic area, often connecting 
+multiple LANs over long distances (e.g., across states, countries, or globally). 
+5. List four major network topologies. 
+• 
+Bus 
+• 
+Star 
+• 
+Ring 
+• 
+Mesh 
+6. The Internet would be best described as a _____. 
+• 
+C. WAN (Wide Area Network). WAN is the best fit as it encompasses vast 
+geographic distances. 
+7. List the following network categories by size, starting with the smallest: MAN, 
+LAN, and WAN. 
+1. LAN (Local Area Network) 
+2. MAN (Metropolitan Area Network) 
+3. WAN (Wide Area Network) 
+8. Differentiate between a physical topology and logical topology. 
+• 
+Physical Topology: Describes the actual physical layout of network devices and 
+the cabling connections between them. It's how the network is wired. (e.g., in a 
+star physical topology, all devices connect to a central hub/switch). 
+• 
+Logical Topology: Describes how data flows through the network, independent 
+of the physical arrangement. It's how the network communicates.  
+9. Compare and contrast a client/server network with a peer-to-peer network. 
+• 
+Client/Server Network:  
+o Comparison: Centralized, specialized roles. 
+o Contrast: Dedicated servers provide resources (files, print, web) to client 
+computers. Clients request services, servers provide them. Easier to 
+manage, more secure, scalable. Requires more powerful servers and 
+skilled administration. 
+• 
+Peer-to-Peer (P2P) Network:  
+o Comparison: Decentralized, shared roles. 
+o Contrast: Each computer can act as both a client and a server, sharing 
+resources directly with other computers. No dedicated server. Easier and 
+cheaper to set up for small networks, less scalable, less secure, harder to 
+manage. 
+10. Name four types of dedicated servers. 
+• 
+File server 
+• 
+Print server 
+• 
+Web server 
+• 
+Mail server 
+11. What does the term client mean in the context of a network? 
+• 
+In the context of a network, a client is a computer or software application that 
+requests services or resources from a server. For example, a web browser on 
+your laptop (client) requests a web page from a web server. 
+12. List and describe three services offered through cloud computing. 
+• 
+IaaS (Infrastructure as a Service): Provides virtualized computing resources 
+over the internet, like virtual machines, storage, networks. Users manage their 
+operating systems, applications, and data. (e.g., AWS EC2, Azure VMs). 
+• 
+PaaS (Platform as a Service): Provides a platform allowing customers to 
+develop, run, and manage applications without the complexity of building and 
+maintaining the infrastructure typically associated with developing and launching 
+an app. (e.g., AWS Elastic Beanstalk, Azure App Service). 
+• 
+SaaS (Software as a Service): Provides ready-to-use software applications over 
+the internet on a subscription basis. Users typically interact with the software 
+through a web browser or client application. (e.g., Gmail, Salesforce, Microsoft 
+365). 
+13. How many categories of clouds exist? Commonly, there are four main categories 
+of clouds: 
+• 
+Public Cloud: Services offered over the public internet and available to anyone. 
+• 
+Private Cloud: Exclusive cloud infrastructure operated solely for a single 
+organization. 
+• 
+Hybrid Cloud: A mix of public and private cloud environments, allowing data and 
+applications to move between them. 
+• 
+Community Cloud: Cloud infrastructure shared by several organizations with 
+common concerns (e.g., security requirements, compliance). 
+14. Define network operating system and provide four examples. 
+• 
+Network Operating System (NOS): A specialized operating system designed to 
+run on servers and manage network resources. It enables multiple users to share 
+files, applications, printers, and other resources. It handles user authentication, 
+file security, network connectivity, and other network services. 
+• 
+Examples:  
+o Microsoft Windows Server (e.g., Windows Server 2022) 
+o Linux (various distributions like Ubuntu Server, Red Hat Enterprise Linux) 
+o Cisco IOS (for routers/switches, though more embedded than a full NOS) 
+15. Describe how devices communicate on a network. Devices communicate on a 
+network by sending and receiving data packets. This process involves: 
+1. Encapsulation: The sending device packages data into frames/packets, adding 
+headers with source/destination addresses (MAC, IP), protocol information, and 
+error-checking data. 
+2. Transmission: The packets are sent over the network media (cables, Wi-Fi) by 
+networking devices (NICs, switches, routers). 
+3. Forwarding: Switches forward frames within the local network based on MAC 
+addresses. Routers forward packets between different networks based on IP 
+addresses. 
+4. Decapsulation: The receiving device processes the packets, removing headers 
+at each layer of the network model (e.g., OSI/TCP-IP), until the original data is 
+reassembled for the application. 
+5. Protocols: Communication is governed by a set of rules called protocols, which 
+define how data is formatted, transmitted, and interpreted. 
+16. List five common networking protocols. 
+• 
+TCP/IP (Transmission Control Protocol/Internet Protocol): The fundamental 
+suite of protocols for the internet. 
+• 
+HTTP (Hypertext Transfer Protocol): Used for transmitting web pages. 
+• 
+SMTP (Simple Mail Transfer Protocol): Used for sending email. 
+• 
+DHCP (Dynamic Host Configuration Protocol): Assigns IP addresses 
+automatically. 
+• 
+SSH (Secure Shell): Secure remote access. 
+17. What are the two types of network addresses and how are they different? 
+• 
+MAC Address (Media Access Control Address):  
+o Type: Physical address, burned into the Network Interface Card (NIC) by 
+the manufacturer. 
+o Difference: Unique globally, used for communication within a local 
+network segment (Layer 2 of OSI model). It does not change. 
+• 
+IP Address (Internet Protocol Address):  
+o Type: Logical address, assigned to a device on a network. 
+o Difference: Can be assigned statically or dynamically, used for 
+communication across different networks (Layer 3 of OSI model). It 
+identifies a device's location on a network and can change. 
+18. In the context of network, what is media? 
+• 
+In the context of a network, media refers to the physical transmission path over 
+which data signals travel. This includes things like:  
+o Copper cabling (e.g., Ethernet cables like Cat5e, Cat6) 
+o Fiber optic cabling 
+o Wireless signals (e.g., Wi-Fi, Bluetooth) 
+19. List 10 common networking devices. 
+1. Router 
+2. Switch 
+3. Hub 
+4. Modem 
+5. Access Point (AP) 
+6. Network Interface Card (NIC) 
+7. Firewall 
+8. Bridge 
+9. Repeater/Extender 
+10. Server (in its role as a network device) 
+20. Describe six organizations responsible for developing networking standards. 
+• 
+IEEE (Institute of Electrical and Electronics Engineers): Develops standards 
+for physical and data link layers, notably the 802 LAN/MAN standards (e.g., 
+802.3 for Ethernet, 802.11 for Wi-Fi). 
+• 
+IETF (Internet Engineering Task Force): Develops and promotes internet 
+standards (RFCs - Requests for Comments) that comprise the TCP/IP protocol 
+suite (e.g., HTTP, DNS, TCP, IP). 
+• 
+ISO (International Organization for Standardization): Develops and publishes 
+international standards for a wide range of industries, including the OSI (Open 
+Systems Interconnection) model. 
+• 
+TIA (Telecommunications Industry Association): Develops standards for 
+telecommunications cabling and infrastructure (e.g., TIA/EIA-568 for twisted-pair 
+cabling). 
+• 
+ITU (International Telecommunication Union): A specialized agency of the 
+United Nations responsible for issues concerning information and communication 
+technologies, including international telecommunication standards. 
+• 
+W3C (World Wide Web Consortium): Develops standards for the World Wide 
+Web (e.g., HTML, CSS, XML). 
+21. What are the two sublayers of the Data Link layer called? The two sublayers of 
+the Data Link layer (OSI Layer 2) are: 
+• 
+LLC (Logical Link Control): Manages communication between higher-layer 
+protocols and the MAC sublayer. Handles flow control and error control for the 
+logical link. 
+• 
+MAC (Media Access Control): Manages access to the physical media. Deals 
+with physical addressing (MAC addresses) and frame formatting. 
+22. List the layers of the OSI model. From top to bottom (7 to 1): 7. Application 6. 
+Presentation 5. Session 4. Transport 3. Network 2. Data Link 1. Physical 
+23. Compare and contrast the OSI model with the TCP/IP model. 
+• 
+Comparison (Similarities):  
+o Both are conceptual models that describe network communication. 
+o Both use layered architectures. 
+o Both define protocols that operate at different layers. 
+o Both aim to standardize network communication to allow interoperability. 
+• 
+Contrast (Differences):  
+o Number of Layers: OSI has 7 layers; TCP/IP typically has 4 or 5 layers 
+(Application, Transport, Internet, Network Access/Link, sometimes 
+Physical). 
+o Development: OSI was developed by ISO as a theoretical framework 
+before the internet was widely adopted. TCP/IP was developed by the 
+U.S. DoD as a practical working model for the internet. 
+o Flexibility: OSI is more rigid, with strict definitions between layers. TCP/IP 
+is more flexible and sometimes combines functionalities of OSI layers. 
+o Implementation: TCP/IP is the model that the internet actually uses. OSI 
+is more of a theoretical reference model, though its concepts are widely 
+used in networking education and design. 
+o Layer 1 & 2: OSI clearly separates Physical and Data Link. TCP/IP often 
+combines these into a single "Network Access" or "Link" layer. 
+o Layer 5, 6, 7: OSI has distinct Session, Presentation, and Application 
+layers. TCP/IP combines these into a single "Application" layer. 
+Match the following OSI layers with their corresponding responsibility. 
+24. Application - G. File transfer service, email, and web browser programs.  
+25. Presentation - F. Translates data into a common compatible format.  
+26. Session - E. Establishes rules for communication between two computers.  
+27. Transport - D. Repackages long messages into smaller units.  
+28. Network - C. Responsible for connecting across WAN systems.  
+29. Data Link - B. Converts frame codes to a serial stream of data. (More accurately, it 
+handles framing and error detection for direct node-to-node transfer, and prepares data 
+for the physical layer.)  
+30. Physical - A. Cabling and connectors. 
+ 
+ 

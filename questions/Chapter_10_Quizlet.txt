@@ -1,0 +1,136 @@
+D413 – Review Questions – Chap 10 Answers 
+ 
+1. How many bytes are in an IPv4 address? 4 bytes 
+2. How many bits are in an IPv4 address? 32 bits 
+3. How many octets are in an IPv4 address? 4 octets 
+4. What is the range of numbers in an IPv4 octet? 0-255 
+5. How many hosts can a Class A network support? 224−2 (16,777,214 hosts) 
+6. How many hosts can a Class B network support? 216−2 (65,534 hosts) 
+7. How many hosts can a Class C network support? 28−2 (254 hosts) 
+8. List the IP addresses commonly assigned as private networks.  
+o 10.0.0.0 to 10.255.255.255 
+o 172.16.0.0 to 172.31.255.255 
+o 192.168.0.0 to 192.168.255.255 
+9. The _____ protocol allows an unregistered private network address to 
+communicate with a legally registered IP address. NAT (Network Address 
+Translation) 
+10. Briefly explain how the NAT protocol works. NAT allows multiple devices on a 
+private network to share a single public IP address when accessing the internet. 
+It translates the private IP addresses of devices within the local network to the 
+public IP address of the router, and vice versa, keeping track of the connections 
+to ensure data is sent to the correct internal device. 
+11. What command can a technician use to find the subnet mask information 
+of a network? ipconfig (Windows), ifconfig (Linux/macOS - though ip a or ip addr 
+show are more common now) 
+12. What two parts make up an FQDN? Hostname and domain name 
+13. What is contained in a typical lmhosts file? A static mapping of NetBIOS 
+names to IP addresses. 
+14. What is contained in a typical hosts file? A static mapping of hostnames to IP 
+addresses. 
+15. Compare and contrast DNS and WINS.  
+o DNS (Domain Name System): Resolves human-readable hostnames 
+(e.g., www.google.com) to IP addresses. It is a hierarchical and distributed 
+system, primarily used for Internet and modern network name resolution. 
+o WINS (Windows Internet Name Service): Resolves NetBIOS names to 
+IP addresses. It is a flat, non-hierarchical system primarily used in older 
+Windows-based networks for NetBIOS name resolution. 
+o Comparison: Both are name resolution services. DNS is for hostnames, 
+WINS is for NetBIOS names. DNS is widely used today, WINS is largely 
+deprecated. 
+16. What is the default protocol for communication across the Internet? TCP/IP 
+(Transmission Control Protocol/Internet Protocol) 
+17. Identify each of the following protocols as either connectionless or 
+connection-oriented. A. TCP: Connection-oriented B. IP: Connectionless C. 
+UDP: Connectionless 
+18. Explain how TCP, UDP, and IP relate to the OSI model.  
+o IP (Internet Protocol): Operates at the Network Layer (Layer 3) of the 
+OSI model. It is responsible for logical addressing (IP addresses) and 
+routing of packets between networks. 
+o TCP (Transmission Control Protocol): Operates at the Transport Layer 
+(Layer 4). It provides reliable, connection-oriented communication, 
+ensuring ordered delivery, error checking, and flow control. 
+o UDP (User Datagram Protocol): Also operates at the Transport Layer 
+(Layer 4). It provides unreliable, connectionless communication, 
+prioritizing speed over guaranteed delivery. 
+19. On what does a TCP frame rely to identify source and destination IP 
+addresses? The underlying IP header (since TCP encapsulates data within IP 
+packets). 
+20. On what does a UDP frame rely to identify source and destination IP 
+addresses? The underlying IP header (since UDP encapsulates data within IP 
+packets). 
+21. On what does an IP frame rely to identify the source and destination MAC 
+addresses? The underlying Data Link Layer (Layer 2) header (e.g., Ethernet 
+frame). 
+22. What is the function of DHCP? DHCP (Dynamic Host Configuration Protocol) 
+automatically assigns IP addresses and other network configuration parameters 
+(like subnet mask, default gateway, DNS servers) to devices on a network, 
+simplifying network administration. 
+23. What two methods are used to assign an IP address to a host?  
+1. Static IP addressing (manual assignment) 
+2. Dynamic IP addressing (using DHCP) 
+24. What type of addressing automatically generates an IP address in the range 
+of 169.254.0.1 to 169.254.255.255 if a network interface card fails to connect 
+to a DHCP server? APIPA (Automatic Private IP Addressing) 
+25. What port is indicated by the following address: 192.168.23.45:80? Port 80 
+(commonly used for HTTP/web traffic) 
+26. IPv6 is referred to as a _____ IP addressing scheme because there is no 
+need for a subnet mask based on network class. Classless 
+27. What are some advantages of IPv6?  
+o Vastly larger address space 
+o Simplified header for faster processing 
+o Improved security (IPsec built-in) 
+o Better support for mobile devices 
+o Improved quality of service (QoS) 
+o No need for NAT 
+28. How is an EUI-64 identifier created? An EUI-64 (Extended Unique Identifier) is 
+created by taking a 48-bit MAC address, inserting the 16-bit value FFFE in the 
+middle (between the first 24 bits and the last 24 bits), and then inverting the 7th 
+bit of the first byte. 
+29. List three terms used to describe the scope of a network.  
+o LAN (Local Area Network) 
+o WAN (Wide Area Network) 
+o MAN (Metropolitan Area Network) 
+30. What are the three broad classifications of IPv6 addresses?  
+o Unicast 
+o Multicast 
+o Anycast 
+31. Which IPv6 address type is similar in function as the IPv4 public 
+addresses? Global Unicast Addresses 
+32. Which IPv6 address type serves the same function as IPv4 APIPA? Link-
+Local Addresses 
+33. What are the three transition technologies used to implement IPv6?  
+o Dual Stack 
+o Tunneling 
+o Translation (e.g., NAT64) 
+34. Briefly describe the function of a broadcast address. A broadcast address is 
+used to send a packet to all devices on a local network segment. 
+35. Briefly describe the function of a multicast address. A multicast address is 
+used to send a packet to a specific group of devices that are subscribed to that 
+multicast group, rather than to all devices or just one. 
+36. Differentiate between a valid lifetime and a preferred lifetime.  
+o Valid Lifetime: The total length of time that an IPv6 address is considered 
+valid and can be used. After this time, the address becomes invalid. 
+o Preferred Lifetime: The length of time that an IPv6 address is considered 
+"preferred" and can be used without any restrictions. Once the preferred 
+lifetime expires (but the valid lifetime is still active), the address enters a 
+"deprecated" state, meaning it can still be used for existing connections 
+but should not be used for new ones. 
+37. What does an M flag determine? The M (Managed) flag in DHCPv6 indicates 
+that a stateful DHCPv6 server is available to assign other configuration 
+information (like DNS server addresses) in addition to addresses. 
+38. What does an O flag determine? The O (Other) flag in DHCPv6 indicates that a 
+stateless DHCPv6 server is available to assign other configuration information 
+(like DNS server addresses) even if addresses are assigned via SLAAC. 
+39. What command was used to install IPv6 on Windows XP computers? netsh 
+interface ipv6 install 
+40. Starting with Windows 7, what command can be entered in command 
+prompt to view IPv6 and IPv4 addresses? ipconfig /all or simply ipconfig 
+41. What utility is most likely used to verify a connection between two network 
+points quickly? ping 
+42. What TCP/IP utility can reveal the number of hops between the source and 
+destination host? tracert (Windows) or traceroute (Linux/macOS) 
+43. What TCP/IP utility displays current network protocol statistics, such as the 
+number of packets sent? netstat 
+44. What TCP/IP utility displays a current listing of NetBIOS names and their 
+associated IP addresses? nbtstat 
+ 
